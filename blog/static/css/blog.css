@@ -1,0 +1,116 @@
+.marais_body {
+background-color:white;
+background-image:url('/static/image/theSwamp.png');
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:74% 100%;
+background-position:right;
+}
+
+.world_body {
+background-color:white;
+background-image:url('/static/image/world.png');
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:74% 100%;
+background-position:right;
+}
+
+.zone_body {
+background-color:white;
+background-image:url('/static/image/zone51.png');
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:74% 100%;
+background-position:right;
+}
+
+.konoha_body {
+background-color:white;
+background-image:url('/static/image/konoha.png');
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:74% 100%;
+background-position:right;
+}
+
+.chasse_body {
+background-color:white;
+background-image:url('/static/image/chasse.png');
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:74% 100%;
+background-position:right;
+}
+
+.cellule_psy_body {
+background-color:white;
+background-image:url('/static/image/cellule_psy.png');
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:74% 100%;
+background-position:right;
+}
+
+.champ_de_bataille_body {
+background-color:white;
+background-image:url('/static/image/champ_de_bataille.png');
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:74% 100%;
+background-position:right;
+}
+
+
+
+.marais{
+background-color : darkGreen;
+color: white;
+width: 200;
+heigth: 50;
+text-align: center;
+}
+
+.ninja{
+background-color : purple;
+color:white;
+width: 200;
+heigth: 50;
+text-align: center;
+}
+
+.anomalie{
+background-color : darkBlue;
+color:white;
+width: 200;
+heigth: 50;
+text-align: center;
+}
+
+.equipement{
+background-color : black;
+color:white;
+width: 200;
+heigth: 50;
+text-align: center;
+}
+
+.card_body{
+background-color : white;
+color:black;
+width: 200;
+heigth: 200;
+}
+
+.card{
+border: 5px solid gold;
+width:200;
+margin: 20;
+position: relative;
+top: 25px; left: 25px;
+}
+
+.icon{
+position: absolute:
+object.position: right top;
+}

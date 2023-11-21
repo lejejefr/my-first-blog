@@ -1,0 +1,22 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>La guerre des shreks</title>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+<body class = "world_body ">
+    {% for equipement in equipements %}
+    <a href = {{equipement.id_equip}}>
+        <div class = 'card'>
+            <img src={{equipement.photo}}
+                width="200"
+                height="133">
+            <div class = "equipement">{{equipement.id_equip}}</div>
+            <div class = 'card_body'>  .disponibilite : {{equipement.disponibilite}}<br><br></div>
+        </div>
+    </a>
+    {% endfor %}
+</body>
+</html>

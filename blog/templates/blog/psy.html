@@ -1,0 +1,26 @@
+{% load static %}
+
+<html>
+    <head>
+        <title>La guerre des shreks</title>
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+    <body class = 'cellule_psy_body'>
+        <a href="{% url 'worldMap' %}">
+                <div align = "right"><img src="/static/image/map.png" height="50" width="50"></div>
+            </a>
+        {% for chara in characters %}
+        <a href = "/character/{{chara.id_character}}">
+        <div class = 'card'>
+            <img src={{chara.photo}}
+            width="200"
+            height="200">
+            <div class = {{chara.type}}>{{chara.id_character}}</div>
+            <div class = 'card_body'>  .type : {{chara.race}}<br>   .etat : {{chara.etat}}<br></div>
+
+        </div>
+        </a>
+        {% endfor %}
+
+    </body>
+</html>
